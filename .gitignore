@@ -45,6 +45,11 @@ logs/
 # Docker
 *.tar
 
+# SQLite demo database (runtime artifact)
+*.db
+*.db-shm
+*.db-wal
+
 # Alembic (keep migrations, ignore auto-generated state file)
 alembic/versions/*.pyc
 
