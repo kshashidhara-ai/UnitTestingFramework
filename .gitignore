@@ -1,0 +1,57 @@
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.next/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Certificates and keys
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.tar
+
+# Alembic (keep migrations, ignore auto-generated state file)
+alembic/versions/*.pyc
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
