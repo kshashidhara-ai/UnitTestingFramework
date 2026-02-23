@@ -20,8 +20,8 @@ env/
 
 # Node / Frontend
 node_modules/
-frontend/dist/
 frontend/.next/
+# frontend/dist/ — committed so demo runs with Python only
 *.tsbuildinfo
 
 # IDE
